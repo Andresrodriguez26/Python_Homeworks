@@ -48,6 +48,22 @@ print(list_comp)
 # Exercise 5:
 # Print all Prime numbers from 1 to 100
 
+# prime numbers
+# 1 to 100
+# first for loop goes through a range of 2 to 101
+# second loop is going to loop through a range of 2 to 101
+# because we need to check if each number in the first for loop
+# is divisible by any of the numbers less than in the second for loop
+
+for i in range(2, 101):
+    for j in range(2, 101):
+        if i % j == 0:
+            break
+    if i == j:
+        print(i)
+
+print("\n")
+
 def prime(num):
     if num < 2:
         return False
