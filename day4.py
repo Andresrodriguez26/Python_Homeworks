@@ -8,7 +8,7 @@
 def measurements():
     length = float(input("What lenght does your house has? "))
     width = float(input("What is  the width of your house? "))
-    if length or widht > 0:
+    if length or width > 0:
         area = length * width
         return area
     else:
@@ -20,9 +20,9 @@ print(f"The square footage of your house is {area} sqft")
 
 # 1b) Has a function to calculate the circumference of a circle 2 Pi r
 
-def circle():
+
     
-    import math
+import math
 
 def circle():
     radius = float(input("What is the radius of your circle? "))
